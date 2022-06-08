@@ -84,38 +84,38 @@
 			<tr>
 				<h1>Cadastro de Livro</h1>
 				<td><label>Titulo do livro:</label></td>
-<td><input type="text" name="titulo_livro" placeholder="Digite Aqui" id="titulo"></td>
+<td><input type="text" name="titulo_livro" placeholder="Digite o Titulo" id="titulo"></td>
 			</tr>
 			<tr>
 				<td><label>Autor do Livro:</label></td>
-				<td><input type="text" name="autor" id="autor_livro"></td>
+				<td><input type="text" name="autor" placeholder="Digite o Autor" id="autor_livro"></td>
 			</tr>
 			<tr>
 				<td><label>Editora:</label></td>
-        <td><input type="text" required name="editora" id="editora_livro"></td>
+        <td><input type="text" required name="editora" placeholder="Digite a Editora" id="editora_livro"></td>
 			</tr>         
 		
     <tr>
 		<td><label>Genero do Livro:</label></td>
-        <td><input type="text" required name="genero" id="genero_livro"></td>
+        <td><input type="text" required name="genero" placeholder="Digite o Genero" id="genero_livro"></td>
 			</tr>
 		
 			<tr>
 		<td><label>ISBN:</label></td>
-        <td><input type="text" required name="isbn" id="isbn_livro"></td>
+        <td><input type="text" required name="isbn" placeholder="Digite o ISBN" id="isbn_livro"></td>
 			</tr>
 			<br>
 			<tr>
 		<td><label>Serie do Livro:</label></td>
-        <td><input type="text" required name="serie" id="serie_livro"></td>
+        <td><input type="text" required name="serie" placeholder="Serie que o livro faz parte" id="serie_livro"></td>
 			</tr>
 			<tr>
 		<td><label>Data de publicacão:</label></td>
-        <td><input type="date" required name="data" id="data_livro"></td>
+        <td><input type="date" required name="data" placeholder="Digite a data de publicacao" id="data_livro"></td>
 			</tr>
 		</table>
     <h3>Sinopse do Livro</h3>
-    <textarea name="sinopse" id="sinopse_livro"></textarea><br>
+    <textarea name="sinopse" id="sinopse_livro" placeholder="Digite a sinopse do livro"></textarea><br>
 
 		<input type="submit" value="Enviar" id="enviar">
 		<input type="reset" value="Limpar Formulário" id="limpar">
