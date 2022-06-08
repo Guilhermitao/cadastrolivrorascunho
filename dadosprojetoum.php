@@ -1,16 +1,17 @@
 <?php
 
-$nome=$_POST["nome"];
-$telefone=$_POST["telefone"];
-$email=$_POST["email"];
-$interesse=$_POST["interesse"];
-$recado=$_POST["recado"];
+$titulo_livro=$_POST["titulo_livro"];
+$autor=$_POST["autor"];
+$editora=$_POST["editora"];
+$genero=$_POST["genero"];
+$sinopse=$_POST["sinopse"];
 
 
-echo "Nome: " .$nome ,"</br>";
-echo "Telefone: " .$telefone ,"</br>";
-echo "area de interesse: " .$interesse ,"</br>";
-echo "seu resumo: " .$recado ,"</br>";
+echo "titulo do livro: " .$titulo_livro ,"</br>";
+echo "Autor do Livro: " .$autor ,"</br>";
+echo "Editora do Livro: " .$editora ,"</br>";
+echo "Genero do livro: " .$genero ,"</br>";
+echo "Sinopse do Livro: " .$sinopse ,"</br>";
 
 ?>
 
