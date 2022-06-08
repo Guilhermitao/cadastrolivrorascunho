@@ -94,7 +94,7 @@
 				<td><label>Editora:</label></td>
         <td><input type="text" required name="editora" id="editora_livro"></td>
 			</tr>         
-		</table>
+		
     <tr>
 		<td><label>Genero do Livro:</label></td>
         <td><input type="text" required name="genero" id="genero_livro"></td>
@@ -113,6 +113,7 @@
 		<td><label>Data de publicacão:</label></td>
         <td><input type="date" required name="data" id="data_livro"></td>
 			</tr>
+		</table>
     <h3>Sinopse do Livro</h3>
     <textarea name="sinopse" id="sinopse_livro"></textarea><br>
 
